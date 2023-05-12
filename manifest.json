@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "AntiPhish",
+    "version": "1.0",
+    "description": "Anti-phishing measures. Adds warnings to Unicode links.",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["antiphish.js"]
+        }
+    ],
+    "icons": {
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "david@haerer.dev"
+        }
+    }
+}
