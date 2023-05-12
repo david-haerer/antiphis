@@ -1,4 +1,4 @@
-# AntiPhish
+# 🎣 AntiPhish
 
 *Firefox extension providing anti-phishing measures.*
 
